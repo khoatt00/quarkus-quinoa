@@ -9,7 +9,7 @@ public class QuinoaTestProfiles {
     public static class Enable implements QuarkusTestProfile {
         @Override
         public Map<String, String> getConfigOverrides() {
-            return Map.of("quarkus.quinoa", "true");
+            return Map.of("quarkus.quinoa", "false");
         }
     }
 
