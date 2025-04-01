@@ -7,6 +7,7 @@ import java.util.OptionalInt;
 import io.quarkus.runtime.annotations.ConfigGroup;
 import io.quarkus.runtime.annotations.ConfigItem;
 
+
 @ConfigGroup
 public class DevServerConfig {
 
